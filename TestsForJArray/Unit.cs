@@ -17,14 +17,14 @@ namespace TestsForJArray
         {
 
             int[][] arrangeArray = new int[3][];
-            arrangeArray[0] = new int[] { 1, 3, 6 };
+            arrangeArray[0] = new int[] { 1, 6, 3 };
             arrangeArray[1] = new int[] { 2, 4 };
             arrangeArray[2] = new int[] { 2, 4, 6, 8 };
 
 
             int[][] actArray = new int[3][];
             actArray[0] = new int[] { 2, 4 };
-            actArray[1] = new int[] { 1, 3, 6 };
+            actArray[1] = new int[] { 1, 6, 3 };
             actArray[2] = new int[] { 2, 4, 6, 8 };
 
             CompareBySum compare = new CompareBySum();
